@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.layout {
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+}
+
+html,
+body {
+    height: 100dvh;
+    width: 100dvw;
+    padding: 0;
+    margin: 0;
+}
